@@ -10,7 +10,7 @@ void inicializarTabuleiro(int tabuleiro[TAM_TABULEIRO][TAM_TABULEIRO]) {
             tabuleiro[i][j] = 0; // Água
         }
     }
-    // Adiciona alguns navios (3) manualmente
+    //Adiciona alguns navios (3) manualmente
     tabuleiro[2][2] = 3;
     tabuleiro[4][4] = 3;
     tabuleiro[7][7] = 3;
